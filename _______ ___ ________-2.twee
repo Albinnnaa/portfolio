@@ -1,0 +1,200 @@
+:: StoryTitle
+История без названия
+
+
+:: StoryData
+{
+  "ifid": "A2CD454D-1492-42E1-8469-BF5C85EAD27D",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Параграф без названия",
+  "zoom": 1
+}
+
+
+:: Параграф без названия {"position":"675,325","size":"100,100"}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опыт производственной практики</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #000000;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #000000;
+        }
+        
+        h1 { color: #000000; font-size: 2.5em; margin-bottom: 10px; }
+        .subtitle { color: #000000; font-size: 1.2em; font-style: italic; opacity: 0.8; }
+        
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-left: 5px solid #000000;
+            background-color: #f8f9fa;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        h2 { color: #000000; margin-top: 0; font-size: 1.8em; }
+        .icon { margin-right: 15px; font-size: 1.5em; color: #000000; }
+        
+        ul { padding-left: 20px; }
+        li { margin-bottom: 12px; color: #000000; }
+        li:before { content: "•"; color: #000000; font-weight: bold; margin-right: 10px; }
+        
+        .skills { background-color: #e8f4fc; }
+        
+        /* Галерея с 3 картинками в ряд */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* ТРИ колонки */
+            gap: 20px;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        
+        .image-container {
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid #000000;
+            position: relative;
+        }
+        
+        .gallery-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .image-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 8px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #000000;
+            color: #000000;
+        }
+        
+        /* Адаптивность для мобильных */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr; /* На мобильных одна колонка */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 Опыт производственной практики</h1>
+            <div class="subtitle">Управление по вопросам миграции</div>
+        </div>
+        
+        <div class="section">
+            <h2><span class="icon">📋</span> Документальная поддержка</h2>
+            <ul>
+                <li>Физическая подготовка документов (прошивка, нумерация)</li>
+                <li>Сканирование и распечатка документации</li>
+                <li>Формирование дел в соответствии с требованиями делопроизводства</li>
+                <li>Систематизация архивных материалов</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2><span class="icon">💻</span> Работа с информационными системами</h2>
+            <ul>
+                <li>Активное участие в ведении электронных реестров. Полное сопровождение жизненного цикла записей — от добавления новых данных до их изменения, архивирования или списания. Постоянное поддержание актуальности информации в системе.</li>
+                <li>Внесение данных из бумажных носителей в специализированные базы</li>
+                <li>Проверка корректности уже имеющейся информации</li>
+                <li>Работа с государственными информационными системами</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2><span class="icon">👥</span> Административные задачи</h2>
+            <ul>
+                <li>Оказание помощи сотрудникам в подготовке материалов</li>
+                <li>Подсчет и проверка объемов документации для отчетов</li>
+                <li>Подготовка справок и служебных записок</li>
+                <li>Координация документооборота внутри отдела</li>
+            </ul>
+        </div>
+        
+        <div class="section skills">
+            <h2><span class="icon">🎯</span> Приобретенные навыки</h2>
+            <ul>
+                <li>Понимание основ делопроизводства в государственном учреждении</li>
+                <li>Практический опыт работы с базами данных</li>
+                <li>Повышение внимательности и ответственности при работе с официальными документами</li>
+                <li>Навыки систематизации и каталогизации документов</li>
+                <li>Умение работать с оргтехникой и специализированным ПО</li>
+            </ul>
+        </div>
+        
+        <h2 style="text-align: center; margin-top: 50px; color: #000000;">🖼️ Галерея практики</h2>
+        <div class="gallery">
+            <!-- КАРТИНКА 1 - замените ссылку -->
+            <div class="image-container">
+                <img src="https://github.com/Albinnnaa/kartinkii/blob/main/IMG_5694%20-%20albina%20kalbodova.webp?raw=true" 
+                     alt="Описание первой картинки" 
+                     class="gallery-image">
+                <div class="image-caption">Документация</div>
+            </div>
+            
+            <!-- КАРТИНКА 2 - замените ссылку -->
+            <div class="image-container">
+                <img src="https://github.com/Albinnnaa/kartinkii/blob/main/IMG_5754%20-%20albina%20kalbodova.webp?raw=true" 
+                     alt="Описание второй картинки" 
+                     class="gallery-image">
+                <div class="image-caption">Рабочий процесс</div>
+            </div>
+            
+            <!-- КАРТИНКА 3 - замените ссылку -->
+            <div class="image-container">
+                <img src="https://github.com/Albinnnaa/kartinkii/blob/main/IMG_5671%20-%20albina%20kalbodova.webp?raw=true" 
+                     alt="Описание третьей картинки" 
+                     class="gallery-image">
+                <div class="image-caption">Результаты работы</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Отчет о производственной практике | Создано в Twine</p>
+            <p>3 фотографии с практики</p>
+        </div>
+    </div>
+</body>
+</html>
